@@ -1,0 +1,197 @@
+/* Override Bootstrap */
+@media (min-width:  768px) { .container { width: 750px; } }
+@media (min-width:  992px) { .container { width: 750px; } } 
+@media (min-width: 1200px) { .container { width: 750px; } }
+
+a:link    { color: #000000; }
+a:visited { color: #000000; }
+a:hover   { color: #ff0000; }
+a:active  { color: #ff8000; }
+
+.container {
+    background: #FFFFFF;
+}
+
+/* My CSS */
+h2 {
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    border-bottom: solid 2px ;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+h3 { font-size: 22px; 
+     font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+
+}
+
+ul { list-style:none; }
+
+u{color:chocolate;
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+u2{font-weight:500;
+   font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+
+under{text-decoration: underline;}
+
+.name{
+    padding: 0px 20px 0px 20px;
+    text-align: center
+}
+.thumbnail { 
+    margin: 5px 0 5px;
+    border: none;
+}
+.col-md-3 col-sm-6 mb-4{
+    padding: 0px 20px 0px 20px;
+}
+.link li{
+    margin: 20px 10px 20px 10px;
+    padding: 2px;
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+
+
+.link li > a{
+    padding-left: 40px;
+}
+
+.pdf a {
+    color: #00A2FF;
+    margin: 5px;
+    padding:5px 10px 5px 10px;
+    border:1px solid #00A2FF;
+    border-radius:10px;
+}
+
+.work {
+    margin: 10px 5px 10px 5px;
+    padding: 5px;
+    border: solid 1px #E0E0E0;
+    cursor:pointer;
+}
+
+.work:hover{
+    border: solid 1px #51A7F9;
+}
+
+.work h3 { margin: 10px 0 10px 0; }
+
+.reink {
+    font-size: 19px;
+}
+
+.organization-table {
+    padding: 0px 15px 0px 15px;
+}
+
+.organization .url {
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    width: 24px;
+    height:24px;
+}
+
+.achievement h3 {
+    padding-left: 15px;
+}
+
+.achievement li {
+    margin: 10px;
+}
+
+.achievement li > div > p {
+    margin: 0px;
+}
+
+.list {
+    padding-left: 5%;
+}
+
+.no-padding-left {
+    padding-left: 0px;
+}
+
+.tag ul {
+    padding: 5px;
+}
+
+.tag li {
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 10px 3px 10px;
+    margin: 1px;
+    max-width:100%; /* limit width */
+    word-break:break-all; /* wrap extended text*/
+    color: #3BBEFF;
+    /*color: #FFF;*/
+    /*background-color: #3BBEFF;*/
+    border: 1px solid #3BBEFF;
+    border-radius: 10px;
+}
+ul.social-network {
+    list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+#social-icon a {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  padding: 0;
+  color: #fff;
+}
+#social-icon i {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  background: #343a40;
+  line-height: 50px;
+  text-align: center;
+}
+#social-icon i:before {padding: 0; line-height: 50px; }
+#social-icon a:hover .fa-twitter { background: #00a1e9; }
+#social-icon a:hover .fa-facebook { background: #3b5998; }
+#social-icon a:hover .fa-instagram { background: #c13584; }
+#social-icon a:hover .fa-rss { background: #ff8c00; }
+
+.nav{
+    position: fixed
+    
+}
+
+#social-icon{
+    padding: 10px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: #343a40;
+}
+
+.img-fluid:hover{
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05); 
+}
+.img-fluid{
+    transition: all .2s ease-in-out;
+}
