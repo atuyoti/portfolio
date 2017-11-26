@@ -3,6 +3,68 @@
 @media (min-width:  992px) { .container { width: 750px; } } 
 @media (min-width: 1200px) { .container { width: 750px; } }
 
+#toggle{
+    display: none;
+}
+body{
+    padding-top:80px;
+}
+.nav-item{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #menu{
+    display: none;
+  }
+  #menu li{
+    width: 100%;
+  }
+  #toggle{
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #222;
+  }
+  #toggle a{
+    display: block;
+    position: relative;
+    padding: 12px 0 10px;
+    border-bottom: 1px solid #444;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+  }
+  #toggle:before{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 21px;
+    margin-top: -11px;
+    background: #fff;
+  }
+  #toggle a:before, #toggle a:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    width: 20px;
+    height: 4px;
+    background: #222;
+  }
+  #toggle a:before{
+    margin-top: -6px;
+  }
+  #toggle a:after{
+    margin-top: 2px;
+  }
+}
+
 a:link    { color: #000000; }
 a:visited { color: #000000; }
 a:hover   { color: #ff0000; }
@@ -169,9 +231,14 @@ ul.social-network li {
 #social-icon a:hover .fa-rss { background: #ff8c00; }
 
 .nav{
-    position: fixed
-    
+    position: fixed;   
 }
+.navbar{
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 999;
+  }
 
 #social-icon{
     padding: 10px;
