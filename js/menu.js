@@ -8,8 +8,6 @@ $(function(){
     var p = 480;
     if(win > p){
       $("#menu").show();
-    }else {
-      $("#menu").hide();
     }
   });
 });
