@@ -6,9 +6,7 @@
 #toggle{
     display: none;
 }
-body{
-    padding-top:80px;
-}
+
 .nav-item{
     display: inline-block;
 }
@@ -72,6 +70,7 @@ a:active  { color: #ff8000; }
 
 .container {
     background: #FFFFFF;
+    padding-top: 100px;
 }
 
 /* My CSS */
