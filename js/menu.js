@@ -7,7 +7,10 @@ $(function(){
     var win = $(window).width();
     var p = 480;
     if(win > p){
+      $("#menu").hide();
+    }else{
       $("#menu").show();
     }
-  });
+  });     
 });
+
