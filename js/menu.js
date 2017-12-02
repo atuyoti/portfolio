@@ -14,7 +14,7 @@ $(function(){
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return true;
    });
-    $("#toggle, .nav-item").click(function(){
+    $("#toggle").click(function(){
     $("#menu").slideToggle();
     return false;
 });
