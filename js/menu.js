@@ -1,7 +1,7 @@
 $(function(){
       
    // #で始まるアンカーをクリックした場合に処理
-   $('.nav-item a[href^=#]').click(function() {
+   $('.index a[href^=#]').click(function() {
       // スクロールの速度
       var speed = 600; // ミリ秒
       // アンカーの値取得
@@ -15,7 +15,6 @@ $(function(){
       return true;
    });
     $("#toggle").click(function(){
-    $("#menu").slideToggle();
     return false;
 });
     
