@@ -70,15 +70,10 @@ a:active  { color: #ff8000; }
 
 .container {
     background: #FFFFFF;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 
 /* My CSS */
-p{ font-size: 15px;
-   font-family:游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif 
-       padding:10px;
-}
-
 h2 {
     padding: 0px 10px 10px 10px;
     text-align: center;
@@ -120,9 +115,6 @@ under{text-decoration: underline;}
     background-size:contain;
     background-repeat:no-repeat;
 }
-
-#redtext { color: chocolate;
-    font-family:游ゴシック体, 'Yu Gothic'}
 
 
 
@@ -268,15 +260,4 @@ ul.social-network li {
 }
 .img-fluid{
     transition: all .2s ease-in-out;
-}
-
-#index{
-    text-align: center;
-    color: #AAAAAA;
-    margin: 20px;
-    font-size: 85%;
-}
-#update{
-    color: #AAAAAA;
-    font-size: 85%;
 }
