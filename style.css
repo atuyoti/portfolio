@@ -261,14 +261,15 @@ ul.social-network li {
     background: #343a40;
 }
 
-.img-fluid:hover{
-        -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        transform: scale(1.05); 
+.img-fluid:hover{  
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03);        
 }
 .img-fluid{
-    transition: all .2s ease-in-out;
+    transition: all .3s ease-in-out;
 }
+
 
 #index{
     text-align: center;
