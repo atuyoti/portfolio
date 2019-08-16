@@ -264,7 +264,7 @@ ul.social-network li {
 .img-fluid:hover{  
         -webkit-transform: scale(1.03);
         -ms-transform: scale(1.03);
-        transform: scale(1.03);        
+        transform: scale(1.03);      
 }
 .img-fluid{
     transition: all .3s ease-in-out;
