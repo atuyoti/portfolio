@@ -281,3 +281,33 @@ ul.social-network li {
     color: #AAAAAA;
     font-size: 85%;
 }
+dt {
+    width: 100px;
+    float: left;
+    font-weight: 200;
+    margin-left: 10px;
+    text-align: left;
+    display: block;box-sizing: border-box;
+    flex-shrink: 0
+}
+
+dl{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-content: flex-start;
+     font-size: 87%;
+}
+
+dl > li {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+
+dd {
+padding-left: 10px;
+text-align: left;
+font-weight: 100;
+word-wrap: break-word;
+}
