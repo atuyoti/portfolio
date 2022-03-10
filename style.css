@@ -311,3 +311,8 @@ text-align: left;
 font-weight: 100;
 word-wrap: break-word;
 }
+
+
+table, th, td {
+  width: auto !important;
+}
